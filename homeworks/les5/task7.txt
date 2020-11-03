@@ -1,0 +1,4 @@
+firma_1 OOO 65000 43000
+Oduvanchiki AO 100 4000
+Martishka&Co OOO 65321 3432
+Lampochka AA 66540 10000
