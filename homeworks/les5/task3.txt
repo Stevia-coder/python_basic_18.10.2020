@@ -1,0 +1,5 @@
+Ivanov:13700
+Petrov:18400
+Smirnov:42000
+Pronchik:12000
+Director:100000
