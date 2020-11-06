@@ -10,17 +10,17 @@ class Worker:
         self.name = name
         self.surname = surname
         self.position = position
-        self.income = {'wage': 300, 'bonus': 35}
+        self._income = {'wage': 300, 'bonus': 35}
 
 
 class Position(Worker):
     pass
 
     def get_full_name(self):
-        return self.name + self.surname
+        return self.name + ' ' + self.surname
 
     def get_total_income(self):
-        return sum(self.income.values())
+        return sum(self._income.values())
 
 
 new_worker = Position('Иван', 'Абрамов', 'Разработчик')
